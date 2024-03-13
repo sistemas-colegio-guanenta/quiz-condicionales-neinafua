@@ -12,17 +12,11 @@ c = float(input("Ingrese el valor de c: "))
 
 # processing
 if a + b > c:
-   print(("los numeros si forman un triangulo"))
-else:
-    print(("los numero no forman un triangulo" ))
-if a + c > b:    
-    print(("los numeros si forman un triangulo"))
-else:
-    print(("los numeros no forman un triangulo"))
-if b + c > a:
-    print(("los numeros si forman un triangulo"))
-else:
-    print(("los numeros no forman un triangulo"))
+    if a + c > b:
+        if b + c > a:
+            print("los 3 numeros si forman un triangulo")
+        else:
+            print("los 3 numeros no forman un triangulo")
 
 
 # output
